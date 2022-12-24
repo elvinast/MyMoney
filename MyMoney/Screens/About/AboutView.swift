@@ -17,7 +17,7 @@ struct AboutView: View {
                 VStack {
                     ToolbarModelView(title: "About") { self.presentationMode.wrappedValue.dismiss() }
                     Spacer().frame(height: 80)
-                    Image("pie_icon").resizable().frame(width: 120.0, height: 120.0)
+                    Image("app_logo").resizable().frame(width: 120.0, height: 120.0)
                     TextView(text: "\(Constants.shared.APP_NAME)", type: .h6).foregroundColor(Color.text_primary_color).padding(.top, 20)
                     
                     VStack(spacing: 20) {
