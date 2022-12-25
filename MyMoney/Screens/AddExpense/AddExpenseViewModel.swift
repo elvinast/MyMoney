@@ -32,7 +32,6 @@ class AddExpenseViewModel: ObservableObject {
     @Published var closePresenter = false
     
     init(expenseObj: ExpenseCD? = nil) {
-        
         self.expenseObj = expenseObj
         self.title = expenseObj?.title ?? ""
         if let expenseObj = expenseObj {

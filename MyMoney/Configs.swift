@@ -49,13 +49,13 @@ func getTransTagIcon(transTag: TransactionsTag) -> String {
         case .TRANS_TAG_TRANSPORT: return "trans_type_transport"
         case .TRANS_TAG_FOOD: return "trans_type_food"
         case .TRANS_TAG_HOUSING: return "trans_type_housing"
-        case .TRANS_TAG_SCHOLARSHIP: return "trans_type_scholarship"
+        case .TRANS_TAG_SCHOLARSHIP: return "trans_type_insurance"
         case .TRANS_TAG_MEDICAL: return "trans_type_medical"
-        case .TRANS_TAG_DEPOSIT: return "trans_type_deposit"
+        case .TRANS_TAG_DEPOSIT: return "trans_type_savings"
         case .TRANS_TAG_PERSONAL: return "trans_type_personal"
         case .TRANS_TAG_ENTERTAINMENT: return "trans_type_entertainment"
         case .TRANS_TAG_OTHERS: return "trans_type_others"
-        case .TRANS_TAG_SHOPPING: return "trans_type_shopping"
+        case .TRANS_TAG_SHOPPING: return "trans_type_utilities"
 //        default: return "trans_type_others"
     }
 }
@@ -65,13 +65,13 @@ func getTransTagTitle(transTag: TransactionsTag) -> String {
         case .TRANS_TAG_TRANSPORT: return "Transport"
         case .TRANS_TAG_FOOD: return "Food"
         case .TRANS_TAG_HOUSING: return "Housing"
-        case .TRANS_TAG_SCHOLARSHIP: return "Insurance"
+        case .TRANS_TAG_SCHOLARSHIP: return "Scholarship"
         case .TRANS_TAG_MEDICAL: return "Medical"
-        case .TRANS_TAG_DEPOSIT: return "Savings"
+        case .TRANS_TAG_DEPOSIT: return "Deposit"
         case .TRANS_TAG_PERSONAL: return "Personal"
         case .TRANS_TAG_ENTERTAINMENT: return "Entertainment"
         case .TRANS_TAG_OTHERS: return "Others"
-        case .TRANS_TAG_SHOPPING: return "Utilities"
+        case .TRANS_TAG_SHOPPING: return "Shopping"
 //        default: return "Unknown"
     }
 }
